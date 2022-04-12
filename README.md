@@ -11,7 +11,7 @@ Rutas:
 
 /bloq: genera números random entre 0 y 1000 y retorna un objeto que tiene como claves los números que van saliendo, 
 y como valores la cantidad de veces que sale cada número. La operación es bloqueante y la cantidad de números a generar se 
-ingresa por parámetro query, por ejemplo: /index?cant=40000
+ingresa por parámetro query, por ejemplo: /bloq?cant=40000
 
 /unbloq: genera números random entre 0 y 1000 y retorna un objeto que tiene como claves los números que van saliendo, 
 y como valores la cantidad de veces que sale cada número. La operación es NO bloqueante, corre en otro hilo ya que se ejecuta el método fork de child process. 
